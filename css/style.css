@@ -64,3 +64,44 @@ body {
   margin-top: 5px;
   margin-bottom: 0;
 }
+.card {
+  background: #FFFFFF;
+  box-shadow: 0px 1px 16px rgba(0, 0, 0, 0.11);
+  border-radius: 8px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 15px;
+}
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  max-width: 302px;
+  margin: auto;
+  gap: 8px; /*расстояние между элементами при flex*/
+}
+.button {
+  background-color: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  flex-shrink: 1; /*элемент занимает все пространство 100%*/
+  width: 100%; /*вариация flex-shrink*/
+  border-radius: 5px;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  gap: 6px; /*отступ в кнопке между элементами*/
+  margin-bottom: 8px;
+}
+.button.vk {
+  background-color: #4C75A3;
+}
+.button.tg {
+  background-color: #0088CC;
+}
+.button.hh {
+  background-color: #e1011c;
+}
