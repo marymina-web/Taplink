@@ -1,3 +1,32 @@
 * {
-  box-sizing: border-box;
+  box-sizing: border-box; /*включение внутренних отступов в размеры ширины и высоты*/
+}
+body {
+  background-color: #F6F6F6;
+  padding: 15px; /*отступы со всех сторон для body*/
+  font-family: 'Inter', sans-serif;
+}
+.page-wrapper {
+  max-width: 375px;
+  margin: auto; /*авто-отступы по краям*/
+  background: #F6F6F6;
+  box-shadow: 0px 1px 16px rgba(0, 0, 0, 0.18);
+  border-radius: 20px;
+}
+.header {
+  color: #ffffff;
+  padding: 30px 21px 145px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.51), rgba(0, 0, 0, 0.51)), url(../img/header-bg.jpg) no-repeat center / cover; 
+  /*cover заполняет все пространство*/
+  border-radius: 0px 0px 80px 80px;
+}
+.hello {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 27px;
+}
+.hello-text {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
 }
