@@ -13,6 +13,7 @@ body {
   background: #F6F6F6;
   box-shadow: 0px 1px 16px rgba(0, 0, 0, 0.18);
   border-radius: 20px;
+  padding-bottom: 20px;
 }
 .container {
   max-width: 333px;
@@ -20,7 +21,7 @@ body {
 }
 .header {
   color: #ffffff;
-  padding: 30px 21px 145px;
+  padding: 30px 21px 110px;
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.51), rgba(0, 0, 0, 0.51)), url(../img/header-bg.jpg) no-repeat center / cover; 
   /*cover заполняет все пространство*/
   border-radius: 0px 0px 80px 80px;
@@ -104,4 +105,13 @@ body {
 }
 .button.hh {
   background-color: #e1011c;
+  margin-bottom: 0;
+}
+.signature {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.signarure-text {
+  font-size: 11px;
 }
